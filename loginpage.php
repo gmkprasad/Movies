@@ -11,7 +11,7 @@
 			$row = mysql_fetch_array($result);
 			$num_row = mysql_num_rows($result);
 			
-		/*...................................................Technical Staff ..............................................*/
+		/*...................................................Users ..............................................*/
 		$query_client = mysql_query("SELECT * FROM client WHERE username='$username' AND password='$password'")or die(mysql_error());
 		$num_row_client = mysql_num_rows($query_client);
 		$row_client = mysql_fetch_array($query_client);
