@@ -1,8 +1,8 @@
 <?php
     $key=$_GET['key'];
     $array = array();
-    $con=mysql_connect("sql306.byethost9.com","b9_21646915","bobby@123");
-    $db=mysql_select_db("b9_21646915_movies",$con);
+    $con=mysql_connect("","","");
+    $db=mysql_select_db("",$con);
     $query=mysql_query("select * from movie_details where name LIKE '%{$key}%'");
     while($row=mysql_fetch_assoc($query))
     {
