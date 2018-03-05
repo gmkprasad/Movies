@@ -210,8 +210,7 @@
 				
 				<div class="project-post illustration">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details WHERE language = 'hindi' ORDER BY id DESC LIMIT 3";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
@@ -234,8 +233,7 @@
 				
 				<div class="project-post photography">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details WHERE language = 'telugu' ORDER BY id DESC LIMIT 3";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
@@ -258,8 +256,7 @@
 				
 				<div class="project-post branding">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details WHERE language = 'english' ORDER BY id DESC LIMIT 3";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
@@ -282,8 +279,7 @@
 				
 				<div class="project-post web-design">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details WHERE language = 'other' ORDER BY id DESC LIMIT 3";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
@@ -369,8 +365,7 @@
 				</div>	
 				<div id="owl-demo" class="owl-carousel">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details ORDER BY id DESC LIMIT 6";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
