@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
         
        	<link href="../../img/myappslogo.jpg" rel="icon" type="image">
-<!------ Include the above in your HEAD tag ---------->
 
 <style>
 body{
@@ -108,7 +107,7 @@ body{
 
 			<?php
 			  // Create database connection
-			  $db = mysqli_connect("sql306.byethost9.com","b9_21646915","bobby@123", "b9_21646915_movies");
+			  $db = mysqli_connect("","","", "");
 
 			  // Initialize message variable
 			  $msg = "";
