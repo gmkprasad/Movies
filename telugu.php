@@ -176,8 +176,7 @@ h1 {
 				
 							<div class="row">
 							<?php
-												$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+												$connect = mysqli_connect("", "", "", ""); 
 												$sql = "SELECT * FROM movie_details WHERE language = 'telugu' ORDER BY id DESC";
 												$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 												while( $record = mysqli_fetch_assoc($resultset) ) 
@@ -219,8 +218,7 @@ h1 {
 				</div>	
 				<div id="owl-demo" class="owl-carousel">
 					<?php
-							$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+							$connect = mysqli_connect("", "", "", ""); 
 							$sql = "SELECT * FROM movie_details ORDER BY id DESC LIMIT 6";
 							$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 							while( $record = mysqli_fetch_assoc($resultset) ) 
