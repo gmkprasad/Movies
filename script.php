@@ -1,7 +1,7 @@
        <link href="admin/assets/styles.css" rel="stylesheet" media="screen">      
 	
 	
-	   <!--------------------------------------/.fluid-container-------------------------------------->
+	   <!--------------------------------------fluid-container-------------------------------------->
         <link href="admin/vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen"> 
         <script src="admin/bootstrap/js/bootstrap.min.js"></script>
         <script src="admin/vendors/easypiechart/jquery.easy-pie-chart.js"></script>
