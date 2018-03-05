@@ -1,6 +1,6 @@
 <?php
-$db = mysql_connect("sql306.byethost9.com","b9_21646915","bobby@123") or die("Database Error");
-mysql_select_db("b9_21646915_movies",$db);
+$db = mysql_connect("","","") or die("Database Error");
+mysql_select_db("",$db);
 
 $id = $_GET['id'];
 $id = mysql_real_escape_string($id);
@@ -168,8 +168,7 @@ echo $record['id']; while($record = mysql_fetch_array( $result )) {
 					<div class="portfolio-box">
 						<div id="owl-demo" class="owl-carousel">
 							<?php
-								$connect = mysqli_connect("sql306.byethost9.com", "b9_21646915", "bobby@123", "b9_21646915_movies");  
-
+								$connect = mysqli_connect("", "", "", ""); 
 								$sql = "SELECT * FROM movie_details ORDER BY date DESC LIMIT 6";
 								$resultset = mysqli_query($connect, $sql) or die("database error:". mysqli_error($conn));
 								while( $record = mysqli_fetch_assoc($resultset) ) 
