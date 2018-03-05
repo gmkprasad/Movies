@@ -6,7 +6,7 @@ dbcon();
 <html class="no-js">
     <head>
         <title>Movies</title>	
-        <meta name="description" content="Cattain Dashboard">
+        <meta name="description" content="Prasad Bobby">
 		<meta name="author" content="Bobby">
 		<meta charset="UTF-8">
 		
