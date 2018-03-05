@@ -1,6 +1,6 @@
 <?php
   // Create database connection
-  $db = mysqli_connect("sql306.byethost9.com","b9_21646915","bobby@123", "b9_21646915_movies");
+  $db = mysqli_connect("","","", "");
 
   // Initialize message variable
   $msg = "";
